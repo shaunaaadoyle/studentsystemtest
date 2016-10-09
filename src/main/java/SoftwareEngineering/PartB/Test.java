@@ -24,17 +24,16 @@ public class Test {
 		ArrayList<Module> commModules = new ArrayList();
 		Module Economics = new Module("Economics", "EC416", studentList);
 		Module Accounting = new Module("Accounting", "AC492", studentList);
-		CourseProgramme Comm = new CourseProgramme("Commerce", new LocalDate ("2016-09-06"), new LocalDate ("2017-05-12"), commModules);
 		commModules.add(Economics);
 		commModules.add(Accounting);
-		
+		CourseProgramme Comm = new CourseProgramme("Commerce", new LocalDate ("2016-09-06"), new LocalDate ("2017-05-12"), commModules);
 		
 		ArrayList<Module> csitModules = new ArrayList();
 		Module Programming = new Module("Programming", "CT427", studentList);
 		Module SoftEng = new Module("Software Engineering", "CT412", studentList);
-		CourseProgramme csit = new CourseProgramme("CS&IT", new LocalDate ("2016-09-10"), new LocalDate ("2017-05-15"), csitModules);
 		csitModules.add(Programming);
 		csitModules.add(SoftEng);
+		CourseProgramme csit = new CourseProgramme("CS&IT", new LocalDate ("2016-09-10"), new LocalDate ("2017-05-15"), csitModules);
 		
 		//System.out.println(studentList);
 		for( Student  student : studentList) {
@@ -42,6 +41,8 @@ public class Test {
 			System.out.println(student);
 			
 		}
+		
+		
 	
 	}
 	
