@@ -54,7 +54,7 @@
     	<dependency>
 	    <groupId>com.github.shaunaaadoyle</groupId>
 	    <artifactId>studentsystem</artifactId>
-	    <version>7085f54a7f</version>
+	    <version>eda40e23e1</version>
 	</dependency>
   </dependencies>
 </project>
